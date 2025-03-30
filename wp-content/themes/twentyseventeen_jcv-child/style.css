@@ -1,0 +1,58 @@
+/*
+ Theme Name:   Twenty Seventeen jenseignechezvous Child
+ Theme URI:    /twenty-fifteen_jcv-child/
+ Description:  Twenty Seventeen adapté pour jenseignechezvous.fr
+ Author:       Nicolas Viel
+ Author URI:   
+ Template:     twentyseventeen
+ Version:      0.1.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen_jcv-child
+*/
+
+.site-footer {
+/*	border-top: 1px solid #eee;*/
+	background-color: #93ccfd;
+}
+
+	.twentyseventeen-front-page.has-header-image .custom-header-media,
+	.twentyseventeen-front-page.has-header-video .custom-header-media,
+	.home.blog.has-header-image .custom-header-media,
+	.home.blog.has-header-video .custom-header-media {
+/*		height: 1200px;
+		height: 100vh;
+		max-height: 50%;*/
+		height: 500px;
+		max-height: 50%;
+		overflow: hidden;
+	}
+
+/* Augmentation de la taille du logo dans le titre*/
+.custom-logo-link img {
+/*	max-height: 80px;*/
+	max-height: 140px;
+}
+
+
+/*@media screen and (min-width: 48em)*/
+.site-content {
+/*    padding: 5.5em 0 0;*/
+    padding: 2em 0 0;
+}
+.page.page-one-column .entry-header, .twentyseventeen-front-page.page-one-column .entry-header, .archive.page-one-column:not(.has-sidebar) .page-header {
+/*    margin-bottom: 4em;*/
+    margin-bottom: 0em;
+}
+
+/* réduction de la marge entre le menu et le titre de la page*/
+
+	.panel-content .wrap {
+		padding-top: 2em;
+	}
+
+/* changement de la police du titre du site */ 
+.site-title {
+	font-family: 'Concert One', cursive;
+}
